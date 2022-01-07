@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_king",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"King.sol": "KingAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"King.sol": {
+			"keccak256": "0x34ba0dab35652687c49444b0a2c01b1dec8a301ffed7a311b17399d18c0904e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b1bfd81e1e367c1229839c7e74c4c1476fba127e933725bbb6aef06350d9b33",
+				"dweb:/ipfs/QmfMmp1LZNLSzdLmcaMBtttjeYjBS5GWuWcMycL6xyqbQD"
+			]
+		}
+	},
+	"version": 1
+}

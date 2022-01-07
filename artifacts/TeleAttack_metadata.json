@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "hackTelephone",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ForceAttack.sol": "TeleAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ForceAttack.sol": {
+			"keccak256": "0xfa41f73df5293c707a8231e83adc343bf81338ffd85dae340bc3da9c5ac8e957",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://17a22543a81b9c70e356dd073021abd6cbdbe418d2f4bf8a6bd5bb0f76694e81",
+				"dweb:/ipfs/QmZxeteXPExEsDXaFmu63mTfFhu7UXjw11NpSJLPf4poTZ"
+			]
+		},
+		"Telephone.sol": {
+			"keccak256": "0xc297e57911c76d01d1f4e16bc5fcca340203f01488bf12fbfb1610884a5a60d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5404741fa46290cc0979c66de2954bd6e22200f24f8297aa5afa16b2a200cb25",
+				"dweb:/ipfs/QmR9WGeQzbMzjogrFgGrhWEmxbp1Fa9X82ZPwexRdx4CSN"
+			]
+		}
+	},
+	"version": 1
+}

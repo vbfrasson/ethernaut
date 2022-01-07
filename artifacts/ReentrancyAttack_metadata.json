@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_originaladdress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "fundMe",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initiateAttack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "seeBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendMoneyBack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ReentrancyAttack.sol": "ReentrancyAttack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Reentrancy.sol": {
+			"keccak256": "0x8d6ec2c0e9584db9f12a04af4448629c9b405f7f51804eb55ec422e6b1e735ac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b9d981e56d6ee97ea229758814aaf2e6f2989fd1023ed0ec23ea0f2b8eb6701a",
+				"dweb:/ipfs/QmTMHh8zbRFJNEcSUxjnjVVTrkczESZGjzBxbgFtzRnXvf"
+			]
+		},
+		"ReentrancyAttack.sol": {
+			"keccak256": "0xd48ada6c01c00e0a884ffff46e14f384ab968c7bad61cab7f08549527ac1c79b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7910db91c7f1a5b25716d2a528a8b3b0532c37d34a00fe67c437c46d070b5731",
+				"dweb:/ipfs/QmbAfxfngeWiwYbPyvXwDiXkzmaStJ7sqcjyECGvzsBzCi"
+			]
+		}
+	},
+	"version": 1
+}
