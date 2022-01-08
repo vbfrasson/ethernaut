@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_targetAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "GateAttack",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GateKeeperOneAttack.sol": "GateKeeperOneAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GateKeeperOne.sol": {
+			"keccak256": "0xcaab083779f673c78c9dee4ae31b539d0eb11b661e4d6b2c2cc5b99fbb2f0d88",
+			"urls": [
+				"bzz-raw://05b84a79670c40a4fd56f2911205000e7b8dc871bae3cbf0255c0d62fa1d60a5",
+				"dweb:/ipfs/QmbRgeSu1gxwEnchUGZtD8aZxiqydgE5NF9q3Z9wNLtqzE"
+			]
+		},
+		"GateKeeperOneAttack.sol": {
+			"keccak256": "0x32e49270567ed26f6b0b75416c0892e6bd99c8b526dcb98a394a9cd5c16f3acb",
+			"urls": [
+				"bzz-raw://db584805fb12931e364a0f731c245b82157c0b27645d8e8fd839650eb3516175",
+				"dweb:/ipfs/QmdSrE6GrjJXHgF865HbCERpaU6txK3FYzybxByhFGvPN2"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v2.5.0/contracts/math/SafeMath.sol": {
+			"keccak256": "0x640b6dee7a4b830bdfd52b5031a07fc2b12209f5b2e29e5d364a7d37f69d8076",
+			"urls": [
+				"bzz-raw://31113152e1ddb78fe7a4197f247591ca894e93f916867beb708d8e747b6cc74f",
+				"dweb:/ipfs/QmbZaJyXdpsYGykVhHH9qpVGQg9DGCxE2QufbCUy3daTgq"
+			]
+		}
+	},
+	"version": 1
+}
