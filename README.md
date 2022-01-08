@@ -2,6 +2,6 @@
 
 Repository for all the challenges I have completed so far!
 
-## Level currently in progress
+## Current Level in progress
 
-GateKeeper One.
+Naught Coin.
